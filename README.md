@@ -1,4 +1,5 @@
 
+
 # Cloud-Resume-Challenge-AWS-by-Ritwik-Srivastava
 
 As I have trained for AWS CCP and giving the AWS CLF-C01 (Certified Cloud Practitioner) exam soon, I wanted to build a project using the AWS services I learned. And what better than the reputed Cloud Resume Challenge created by Forrest Brazeal.
@@ -27,7 +28,7 @@ will use Route53 if necessary
 I don't know how would this be added from the client's end, as I think it needs to be added on the server side (not confirmed)
 
 ### Step 8 (Database)
-Will use DynamoDB for the visitor counter to retrieve and update the count from the database
+Will use DynamoDB
 
 ### Step 9 (API)
 API which will communicate with the web app and the Database
@@ -52,4 +53,25 @@ Set up Github Actions for the website code, so the S3 bucket automatically gets 
 
 ### Step 16 (Blog Post)
 Finally, when all the above tasks are done, I will write a short blog post without all the code to finish the challenge and share my learnings.
+
+
+## Tech Stack
+
+**Client:** HTML, CSS, JavaScript
+
+**Server:** Python, boto3, AWS SAM, DynamoDB, AWS API Gateway, Github Actions, Amazon S3, Amazon CloudFront, Amazon Route 53
+## Resources for research
+
+ - [Tests for Lambda Functions](https://towardsdatascience.com/how-i-write-meaningful-tests-for-aws-lambda-functions-f009f0a9c587)
+ - [Front-end with IaC](https://learn.hashicorp.com/tutorials/terraform/cloudflare-static-website?in=onboarding/tfcb-week-4)
+ - [JavaScript Counter]()
+ - [AWS SAM specification resources and properties](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-resources-and-properties.html)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me on ritwik.srv237@gmail.com
+
+
+
 
