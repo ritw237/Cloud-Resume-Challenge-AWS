@@ -1,6 +1,9 @@
 
 
-# Cloud-Resume-Challenge-AWS-by-Ritwik-Srivastava
+# Cloud-Resume-Challenge [AWS]
+
+## Hi, I'm Ritwik! 👋
+
 
 As I have trained for AWS CCP and giving the AWS CLF-C01 (Certified Cloud Practitioner) exam soon, I wanted to build a project using the AWS services I learned. And what better than the reputed Cloud Resume Challenge created by Forrest Brazeal.
 
