@@ -27,7 +27,7 @@ will use Route53 if necessary
 I don't know how would this be added from the client's end, as I think it needs to be added on the server side (not confirmed)
 
 ### Step 8 (Database)
-Will use DynamoDB
+Will use DynamoDB for the visitor counter to retrieve and update the count from the database
 
 ### Step 9 (API)
 API which will communicate with the web app and the Database
@@ -43,4 +43,13 @@ I will use AWS Serverless Application Model (SAM) template and deploy the Dynamo
 
 ### Step 13 (Source Control)
 The challenge says to seperate the frontend and the backend code in separate repos. This is already done to an extent (still have to figure out adding the visitor counter)
+
+### Step 14 (CI/CD backend)
+Will set up Github Actions for the python code and tests
+
+### Step 15 (CI/CD frontend)
+Set up Github Actions for the website code, so the S3 bucket automatically gets updated
+
+### Step 16 (Blog Post)
+Finally, when all the above tasks are done, I will write a short blog post without all the code to finish the challenge and share my learnings.
 
