@@ -19,7 +19,7 @@ Visit https://ritwik.vercel.app
 Need to remove it from vercel and then deploy it using Amazon S3. Or keep the same website and do the other steps
 
 ### Step 5 (using HTTPS)
-Vercel already provides HTTPS but will use Amazon Cloudfront for this
+Vercel already provides HTTPS but will use Amazon CloudFront for this
 
 ### Step 6 (DNS)
 will use Route53 if necessary
@@ -28,10 +28,10 @@ will use Route53 if necessary
 I don't know how would this be added from the client's end, as I think it needs to be added on the server side (not confirmed)
 
 ### Step 8 (Database)
-Will use DynamoDB
+Will use DynamoDB for retrieving and updating the visitor counter
 
 ### Step 9 (API)
-API which will communicate with the web app and the Database
+API which will communicate with the web app and the Database (AWS API Gateway will come into play here)
 
 ### Step 10 (Lambda Function)
 I would finally get to use the famous AWS Lambda Function, will use boto3 library for AWS in python
