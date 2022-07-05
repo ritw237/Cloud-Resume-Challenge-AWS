@@ -5,7 +5,10 @@
 ## Hi, I'm Ritwik! 👋
 
 
-As I have trained for AWS CCP and giving the AWS CLF-C01 (Certified Cloud Practitioner) exam soon, I wanted to build a project using the AWS services I learned. And what better than the reputed Cloud Resume Challenge created by Forrest Brazeal, it's free and is designed for the newcomers in Cloud so they can use the AWS services in a hands-on project.
+As I have trained for AWS CCP and giving the AWS CLF-C01 (Certified Cloud Practitioner) exam soon, I wanted to build a project using the AWS services I learned.
+(Edit:- I now have trained for AWS Solutions Architect Associate and will sit for the AWS SAA C02.)
+
+And what better than the reputed Cloud Resume Challenge created by Forrest Brazeal, it's free and is designed for the newcomers in Cloud so they can use the AWS services in a hands-on project.
 
 Visit https://cloudresumechallenge.dev/docs/the-challenge/aws/ for more information on this challenge.
 
