@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+body {
+  margin: 0px;
+  background-color: rgb(24, 23, 23);
+  color: whitesmoke;
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+}
+.main {
+  width: 100%;
+  /* display: flex;
+  flex-wrap: wrap-reverse; */
+}
+.left_container {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 4px solid blanchedalmond; */
+  height: 50vh;
+  letter-spacing: 5px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+h1 {
+  font-size: 1.8em;
+}
+.bg {
+  /* border: 4px solid blanchedalmond; */
+  background: url("./Ritwik23.jpeg")
+    no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.right_container {
+}
+.about_me_container{
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+    width: 100% auto;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.about_me_text {
+    width: 80%;
+    transition: 0.5s ease-in-out;
+    /* border-style: dashed; */
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: justify;
+}
+.about_me_heading{
+    font-weight: 500;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+button {
+ font-family: 'Baskervville', serif;;
+    background-color: rgba(24, 22, 22, 0.638);
+    color: whitesmoke;
+    margin: 19px;
+    width: 115px;
+    border: 0.01px solid rgba(245, 245, 245, 0.378);
+    border-radius: 15%;
+    transition: all .2s;
+}
+button > img {
+    margin-top: 3px;
+}
+button > p {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+button:hover{
+    border: 0.2px solid beige;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    /* border-style: dashed; */
+  }
+
+  .left_container {
+    height: 100vh;
+  }
+  .about_me_text {
+    width: 50%;
+    /* border-style: dashed; */
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.about_me_heading  , h1  {
+    font-size: 3.4em;
+}
+::-webkit-scrollbar {
+ width: 10px;
+ height: 6px;
+}
+::-webkit-scrollbar-thumb {
+ background: #6b6b6b91;
+ border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background: #8a8a8a;
+}
+::-webkit-scrollbar-track{
+ background: #181717;
+ border-radius: 10px;
+ box-shadow: inset -30px -28px 12px #181717;
+}
